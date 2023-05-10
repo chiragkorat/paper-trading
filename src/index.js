@@ -13,8 +13,8 @@ class App extends React.Component {
     return (
       <div className="AppContainer">
         {
-          locationData === '/course' ? <Course />: locationData === '/course' ? <Course />:locationData === '/chart' ?<Chart />:<LandingPage />
-        }      
+          locationData === '/course' ? <Course /> : locationData === '/course' ? <Course /> : locationData === '/chart' ? <Chart /> : <LandingPage />
+        }
       </div >
     );
   }
